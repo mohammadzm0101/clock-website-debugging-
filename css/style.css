@@ -13,6 +13,14 @@ html, body{
 	background:#fff;
 	font-size: 100%;
 }
+body{
+	width: 98%;
+	margin: 0 auto;
+	
+}
+html{
+	background-color: #000;
+}
 body a{
  	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -137,13 +145,13 @@ body a{
  }
 .header_right{
 	float:right;
-	width:6%;
+	width:4%;
 	margin-top: 16px;
 }
 .sb-search {
 	position: absolute;
 	top:7px;
-	right:0px;
+	right:15px;
 	width: 0%;
 	min-width: 45px;
 	height: 45px;
@@ -236,7 +244,8 @@ ul.icon1 {
 	zoom: 1;
 	list-style: none;
 	padding: 0;
-	margin-left:25%;
+ /* for distance bet search & registration */
+	margin-left: -25px;
 }
 .icon1 li {
 	float: left;
@@ -253,14 +262,14 @@ ul.icon1 {
 }
 .icon1 ul {
 	width:300px;
-	margin: 20px 0 0 0;
-	_margin: 0;
+	margin: 90px 100px 0 0;
+	/* margin: 0; */
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
 	top:67px;
-	z-index: 1;
-	right: -140px;
+	z-index: 100;
+	right: 30px;
 	background: #ffffff;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
