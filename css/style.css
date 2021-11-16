@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'Iranian-Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/iranian-sans.eot');
+	src: url('../fonts/iranian-sans.otf') format('embedded-opentype'),
+		 url('../fonts/iranian-sans.woff') format('woff'),
+		 url('../fonts/iranian-sans.woff2') format('woff2'),
+		 url('fonts/Iranian-Sans.ttf') format('truetype');
+		 }
+
 .vexashop{
 	text-decoration: none;
 }
@@ -9,8 +20,9 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-	font-family: 'Open Sans', sans-serif;
-	background:#fff;
+	font-family: Iranian-Sans;
+	letter-spacing: -0.5px;
+	background-color: #fff;
 	font-size: 100%;
 }
 body a{
