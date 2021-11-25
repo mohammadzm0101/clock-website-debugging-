@@ -15,4 +15,49 @@
   background: {
     image: linear-gradient(to bottom, white , silver);
   }
+  .container{
+      .row{
+          .col-md-12{
+              .header-left{
+                  .logo{
+                      i{
+                          color: $myColor2;
+                          font: {
+                              size: 4em;
+                          }
+                          margin: {
+                              top: 4px;
+                          }
+                      }
+                  }
+              }
+              .menu .toggleMenu i{
+                  color: $myColor4;
+                  font: {
+                      size: 2em;
+                  }
+              }
+              .menu li a{
+                  color: $myColor4;
+                  .menu li a::active{
+                      background-color: $myColor3;
+                      color: $myColor;
+                  }
+                
+              }
+              .header_right{
+                .search-box{
+                    .sb-search{
+                        .sb-search-input{
+                           background-image: linear-gradient(to top, white , silver);;
+                           
+                          
+                        }
+                    }
+                }
+            }
+          }
+          
+      }
+  }
 }

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "newstyle.scss"
-    ],
-    "names": [],
-    "file": "newstyle.css"
-}
+{"version":3,"sourceRoot":"","sources":["newstyle.scss","_variables.scss"],"names":[],"mappings":"AAaA;EAEI;;AAOkB;EACI,OCrBd;EDuBkB;EAGA;;AAKhB;EACI,OC/BN;EDiCU;;AAGR;EACI,OCrCN;;ADsCM;EACI,kBCtCV;EDuCU,OC3CX;;ADkDa;EACG","file":"newstyle.css"}

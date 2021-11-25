@@ -1,3 +1,24 @@
 .header {
-    background-image: linear-gradient(to right, rgba(255, 217, 0, 0), silver)
+  background-image: linear-gradient(to bottom, white, silver);
 }
+.header .container .row .col-md-12 .header-left .logo i {
+  color: gold;
+  font-size: 4em;
+  margin-top: 4px;
+}
+.header .container .row .col-md-12 .menu .toggleMenu i {
+  color: goldenrod;
+  font-size: 2em;
+}
+.header .container .row .col-md-12 .menu li a {
+  color: goldenrod;
+}
+.header .container .row .col-md-12 .menu li a .menu li a::active {
+  background-color: white;
+  color: #f504f5;
+}
+.header .container .row .col-md-12 .header_right .search-box .sb-search .sb-search-input {
+  background-image: linear-gradient(to top, white, silver);
+}
+
+/*# sourceMappingURL=newstyle.css.map */
