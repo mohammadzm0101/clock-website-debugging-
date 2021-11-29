@@ -11,6 +11,25 @@
 // @extend .buttonBase
 // color: red;
 // }
+body{
+    h4,
+h5,
+h6,
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+    direction: rtl;
+}
+font: {
+    family: Iranian-Sans;
+	letter-spacing: -0.5px;
+}
+background: {
+    image: linear-gradient(rgb(34, 34, 33), white 6%);
+}
+
 .header {
   background: {
     image: linear-gradient(to bottom, white , silver);
@@ -21,7 +40,7 @@
               .header-left{
                   .logo{
                       i{
-                          color: $myColor2;
+                          color: $myColor4;
                           font: {
                               size: 4em;
                           }
@@ -60,4 +79,179 @@
           
       }
   }
+}
+.main{
+    .content-top{
+        h2{
+            color: $myColor4;
+        }
+        p{
+            color: $myColor4;
+        }
+        i{
+            color: $myColor4;
+            font: {
+                size: 30px;
+            }
+        }
+        h3{
+            color: $myColor4;
+        }
+    }
+}
+.col-md-7{
+    float: right;
+    h3{
+        color: $myColor4;
+    }
+    p{
+        color: $myColor4;
+        font: {
+            weight: 900;
+            size: 1.2em
+        };
+    }
+}
+.features{
+    background: red;
+    .container{
+        h3{
+            color: $myColor4;
+        }
+        p.m_3{
+            font: {
+                weight: 900;
+            }
+            color: $myColor3;
+            text: {
+                align: center;
+            }
+            
+        }
+        i{
+            color: $myColor4;
+            font-size: 30px;
+        }
+        p{
+            font: {
+                weight: 900;
+            }
+            color: $myColor1;
+        }
+        i{
+            color: $myColor4;
+            font-size: 30px;
+        }
+    }
+
+    .link1{
+           border: solid 5px $myColor5;
+           border-radius: 15px 50px;
+          background: {
+           image: linear-gradient(to top, $myColor5 80%, white);
+          } 
+          a{
+              text-decoration: none;
+          }
+    }
+    .link2{
+        border: solid 5px $myColor6;
+        border-radius: 50px 10px;
+       background: {
+        image: linear-gradient($myColor6, $myColor1);
+       } 
+       a{
+           text-decoration: none;
+       }
+ }
+ .link3{
+    border: solid 5px $myColor;
+    border-radius: 50px;
+   background: {
+    image: linear-gradient(to left, $myColor, $myColor5);
+   } 
+   a{
+       text-decoration: none;
+   }
+}
+.link{
+    border: solid 5px $myColor1;
+    border-radius: 15px;
+   background: {
+    image: linear-gradient(to right ,$myColor1 80%, $myColor3);
+   } 
+   a{
+       text-decoration: none;
+   }
+}
+    
+}
+
+@media (max-width:1024px){
+    .ladies{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            
+            div{
+                 flex: 25%
+                 
+            }
+            
+        }
+    }
+}
+@media (max-width:770px){
+    .ladies{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            div{
+                 flex: 50%
+            }
+        }
+    }
+}
+@media (max-width: 470px){
+    .ladies{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            div{
+                 flex: 100%
+            }
+        }
+    }
+}
+.footer{
+    background: {
+        image: linear-gradient(to top, $myColor, $myColor2)
+    }
+    border-radius: 40px;
+    direction: rtl;
+    h4{
+        font: {
+            weight: 800;
+
+            
+        }
+        color: $myColor1;
+        
+    }
+    li a{
+        font: {
+            weight: 900;
+            size: 15px;
+        }
+        color: $myColor3;
+    }
+}
 }
