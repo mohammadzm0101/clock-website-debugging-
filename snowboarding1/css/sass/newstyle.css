@@ -1,1 +1,162 @@
-body{font-family:Iranian-Sans;font-letter-spacing:-0.5px;background-image:linear-gradient(#222221, white 6%)}body h4,body h5,body h6,body h1,body h2,body h3,body p{margin-top:0;direction:rtl}body .header{background-image:linear-gradient(to bottom, white, silver)}body .header .container .row .col-md-12 .header-left .logo i{color:#daa520;font-size:4em;margin-top:4px}body .header .container .row .col-md-12 .menu .toggleMenu i{color:#daa520;font-size:2em}body .header .container .row .col-md-12 .menu li a{color:#daa520}body .header .container .row .col-md-12 .menu li a .menu li a::active{background-color:#fff;color:#f504f5}body .header .container .row .col-md-12 .header_right .search-box .sb-search .sb-search-input{background-image:linear-gradient(to top, white, silver)}body .main .content-top h2{color:#daa520}body .main .content-top p{color:#daa520}body .main .content-top i{color:#daa520;font-size:30px}body .main .content-top h3{color:#daa520}body .col-md-7{float:right}body .col-md-7 h3{color:#daa520}body .col-md-7 p{color:#daa520;font-weight:900;font-size:1.2em}body .features{background:red}body .features .container h3{color:#daa520}body .features .container p.m_3{font-weight:900;color:#fff;text-align:center}body .features .container i{color:#daa520;font-size:30px}body .features .container p{font-weight:900;color:#7c7979}body .features .container i{color:#daa520;font-size:30px}body .features .link1{border:solid 5px pink;border-radius:15px 50px;background-image:linear-gradient(to top, pink 80%, white)}body .features .link1 a{text-decoration:none}body .features .link2{border:solid 5px #358f9b;border-radius:50px 10px;background-image:linear-gradient(#358f9b, #7c7979)}body .features .link2 a{text-decoration:none}body .features .link3{border:solid 5px #f504f5;border-radius:50px;background-image:linear-gradient(to left, #f504f5, pink)}body .features .link3 a{text-decoration:none}body .features .link{border:solid 5px #7c7979;border-radius:15px;background-image:linear-gradient(to right, #7c7979 80%, white)}body .features .link a{text-decoration:none}@media(max-width: 1024px){body .ladies .row{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}body .ladies .row div{flex:25%}}@media(max-width: 770px){body .ladies .row{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:wrap}body .ladies .row div{flex:50%}}@media(max-width: 470px){body .ladies .row{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:wrap}body .ladies .row div{flex:100%}}body .footer{background-image:linear-gradient(to top, #f504f5, gold);border-radius:40px;direction:rtl}body .footer h4{font-weight:800;color:#7c7979}body .footer li a{font-weight:900;font-size:15px;color:#fff}
+body {
+  font-family: Iranian-Sans;
+  font-letter-spacing: -0.5px;
+  background-image: linear-gradient(#222221, white 6%);
+}
+body h4,
+body h5,
+body h6,
+body h1,
+body h2,
+body h3,
+body p {
+  margin-top: 0;
+  direction: rtl;
+}
+body .header {
+  background-image: linear-gradient(to bottom, white, silver);
+}
+body .header .container .row .col-md-12 .header-left .logo i {
+  color: goldenrod;
+  font-size: 4em;
+  margin-top: 4px;
+}
+body .header .container .row .col-md-12 .menu .toggleMenu i {
+  color: goldenrod;
+  font-size: 2em;
+}
+body .header .container .row .col-md-12 .menu li a {
+  color: goldenrod;
+}
+body .header .container .row .col-md-12 .menu li a .menu li a::active {
+  background-color: white;
+  color: #f504f5;
+}
+body .header .container .row .col-md-12 .header_right .search-box .sb-search .sb-search-input {
+  background-image: linear-gradient(to top, white, silver);
+}
+body .main .content-top h2 {
+  color: goldenrod;
+}
+body .main .content-top p {
+  color: goldenrod;
+}
+body .main .content-top i {
+  color: goldenrod;
+  font-size: 30px;
+}
+body .main .content-top h3 {
+  color: goldenrod;
+}
+body .col-md-7 {
+  float: right;
+}
+body .col-md-7 h3 {
+  color: goldenrod;
+}
+body .col-md-7 p {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+body .features .container h3 {
+  color: goldenrod;
+}
+body .features .container p.m_3 {
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+body .features .container i {
+  color: goldenrod;
+  font-size: 30px;
+}
+body .features .container p {
+  font-weight: 900;
+  color: #7c7979;
+}
+body .features .container i {
+  color: goldenrod;
+  font-size: 30px;
+}
+body .features .link1 {
+  border: solid 5px pink;
+  border-radius: 15px 50px;
+  background-image: linear-gradient(to top, pink 80%, white);
+}
+body .features .link1 a {
+  text-decoration: none;
+}
+body .features .link2 {
+  border: solid 5px #358f9b;
+  border-radius: 50px 10px;
+  background-image: linear-gradient(#358f9b, #7c7979);
+}
+body .features .link2 a {
+  text-decoration: none;
+}
+body .features .link3 {
+  border: solid 5px #f504f5;
+  border-radius: 50px;
+  background-image: linear-gradient(to left, #f504f5, pink);
+}
+body .features .link3 a {
+  text-decoration: none;
+}
+body .features .link {
+  border: solid 5px #7c7979;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #7c7979 80%, white);
+}
+body .features .link a {
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  body .ladies .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  body .ladies .row div {
+    flex: 25%;
+  }
+}
+@media (max-width: 770px) {
+  body .ladies .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  body .ladies .row div {
+    flex: 50%;
+  }
+}
+@media (max-width: 470px) {
+  body .ladies .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  body .ladies .row div {
+    flex: 100%;
+  }
+}
+body .footer {
+  background-image: linear-gradient(to top, #f504f5, gold);
+  border-radius: 40px;
+  direction: rtl;
+}
+body .footer h4 {
+  font-weight: 800;
+  color: #7c7979;
+}
+body .footer li a {
+  font-weight: 900;
+  font-size: 15px;
+  color: white;
+}
+
+/*# sourceMappingURL=newstyle.css.map */
