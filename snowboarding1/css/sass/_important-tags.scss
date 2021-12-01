@@ -1,0 +1,22 @@
+// @mixin name($myColor:,) {
+    // font: {
+        // weight:200;
+
+    // }
+// }
+// .search basic{
+    // ...
+// }
+@mixin formIcons($myColor8:pink) {
+    font: {
+        size: 30px;
+    }
+    color: $myColor8;
+    
+}
+@mixin  formIconsH{
+    font:{
+        size: 35px;
+    }
+    color:$myColor4;
+}

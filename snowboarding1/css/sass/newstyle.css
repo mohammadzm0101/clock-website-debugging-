@@ -1,0 +1,537 @@
+body {
+  font-family: Iranian-Sans;
+  font-letter-spacing: -0.5px;
+}
+
+body h4,
+body h5,
+body h6,
+body h1,
+body h2,
+body h3,
+body p {
+  margin-top: 0;
+  direction: rtl;
+}
+
+body .header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: linear-gradient(black, black);
+}
+
+body .header .container .row .col-md-12 .header-left .logo i {
+  color: goldenrod;
+  font-size: 2em;
+  margin-top: 13px;
+}
+
+body .header .container .row .col-md-12 .menu .toggleMenu i {
+  color: goldenrod;
+  font-size: 2em;
+}
+
+body .header .container .row .col-md-12 .menu li a {
+  color: goldenrod;
+}
+
+body .header .container .row .col-md-12 .menu li a .menu li a::active {
+  background-color: white;
+  color: #f504f5;
+}
+
+body .header .container .row .col-md-12 .header_right .search-box .sb-search .sb-search-input {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(silver));
+  background-image: linear-gradient(to top, white, silver);
+}
+
+body .header .container .row .col-md-12 .header_right .active-icon {
+  color: black;
+  background-color: black;
+}
+
+body .main .content-top h2 {
+  color: goldenrod;
+}
+
+body .main .content-top p {
+  color: goldenrod;
+}
+
+body .main .content-top i {
+  color: goldenrod;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+body .main .content-top h3 {
+  color: goldenrod;
+}
+
+body .main .shop_top .container .team_box .team1 i {
+  font-size: 30px;
+  color: pink;
+}
+
+body .main .shop_top .container .team_box .team1 i:hover, body .main .shop_top .container .team_box .team1 :active {
+  font-size: 35px;
+  color: goldenrod;
+}
+
+body .main .shop_top .container .row .col-md-3 .shop_desc span {
+  font-family: Rezvan;
+}
+
+body .col-md-7 {
+  float: right;
+}
+
+body .col-md-7 h3 {
+  color: goldenrod;
+}
+
+body .col-md-7 p {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+body .features .container {
+  width: 90%;
+}
+
+body .features .container p.m_3 {
+  font-weight: 900;
+  text-align: center;
+}
+
+body .features .container i {
+  font-size: 30px;
+}
+
+body .features .container p {
+  font-weight: 900;
+  color: #7c7979;
+}
+
+body .features .container i {
+  color: goldenrod;
+  font-size: 30px;
+}
+
+body .features .link5 {
+  -webkit-animation: example 2s ease-in infinite alternate;
+          animation: example 2s ease-in infinite alternate;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(1%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 1%, white);
+  }
+  5% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(6%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 6%, white);
+  }
+  10% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(10%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 10%, white);
+  }
+  15% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(15%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 15%, white);
+  }
+  25% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(25%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 25%, white);
+  }
+  35% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(35%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 35%, white);
+  }
+  45% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(45%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 45%, white);
+  }
+  55% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(55%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 55%, white);
+  }
+  65% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(65%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 65%, white);
+  }
+  75% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(75%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 75%, white);
+  }
+  85% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(85%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 85%, white);
+  }
+  95% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(95%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 95%, white);
+  }
+  100% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(100%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 100%, white);
+  }
+}
+
+@keyframes example {
+  0% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(1%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 1%, white);
+  }
+  5% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(6%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 6%, white);
+  }
+  10% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(10%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 10%, white);
+  }
+  15% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(15%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 15%, white);
+  }
+  25% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(25%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 25%, white);
+  }
+  35% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(35%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 35%, white);
+  }
+  45% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(45%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 45%, white);
+  }
+  55% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(55%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 55%, white);
+  }
+  65% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(65%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 65%, white);
+  }
+  75% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(75%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 75%, white);
+  }
+  85% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(85%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 85%, white);
+  }
+  95% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(95%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 95%, white);
+  }
+  100% {
+    background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(100%, #f2f3eb), to(white));
+    background-image: linear-gradient(to right, white, #f2f3eb 100%, white);
+  }
+}
+
+body .features .link1 {
+  -webkit-box-shadow: 1px 1px 10px 0 pink, 1px 1px 10px 0 pink;
+          box-shadow: 1px 1px 10px 0 pink, 1px 1px 10px 0 pink;
+  border: solid 1px pink;
+  border-radius: 15px 50px;
+}
+
+body .features .link1 a {
+  text-decoration: none;
+}
+
+body .features .link1 a h3 {
+  color: pink;
+}
+
+body .features .link1 a p {
+  color: pink;
+}
+
+body .features .link1 a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px pink;
+  color: pink;
+  display: block;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+body .features .link1:hover, body .features :active {
+  -webkit-box-shadow: 1px 1px 10px 0 pink, 1px 1px 10px 0 pink;
+          box-shadow: 1px 1px 10px 0 pink, 1px 1px 10px 0 pink;
+  border: solid 5px pink;
+}
+
+body .features .link1:hover a, body .features :active a {
+  text-decoration: none;
+}
+
+body .features .link1:hover a h3, body .features :active a h3 {
+  color: pink;
+}
+
+body .features .link1:hover a p, body .features :active a p {
+  color: pink;
+}
+
+body .features .link1:hover a p i, body .features :active a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px pink;
+  color: goldenrod;
+  display: block;
+}
+
+body .features .link2 {
+  -webkit-box-shadow: 1px 1px 10px 0 #358f9b, 1px 1px 10px 0 #358f9b;
+          box-shadow: 1px 1px 10px 0 #358f9b, 1px 1px 10px 0 #358f9b;
+  border: solid 1px #358f9b;
+  border-radius: 50px 15px;
+}
+
+body .features .link2 a {
+  text-decoration: none;
+}
+
+body .features .link2 a h3 {
+  color: #358f9b;
+}
+
+body .features .link2 a p {
+  color: #358f9b;
+}
+
+body .features .link2 a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px #358f9b, 0 0 5px #358f9b;
+  color: #358f9b;
+  display: block;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+body .features .link2:hover, body .features :active {
+  -webkit-box-shadow: 1px 1px 10px 0 #358f9b, 1px 1px 10px 0 #358f9b;
+          box-shadow: 1px 1px 10px 0 #358f9b, 1px 1px 10px 0 #358f9b;
+  border: solid 5px #358f9b;
+}
+
+body .features .link2:hover a, body .features :active a {
+  text-decoration: none;
+}
+
+body .features .link2:hover a h3, body .features :active a h3 {
+  color: #358f9b;
+}
+
+body .features .link2:hover a p, body .features :active a p {
+  color: #358f9b;
+}
+
+body .features .link2:hover a p i, body .features :active a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px #7c7979, 0 0 5px #7c7979;
+  color: #7c7979;
+  display: block;
+}
+
+body .features .link3 {
+  -webkit-box-shadow: 1px 1px 10px 0 #f504f5, 1px 1px 10px 0 #f504f5;
+          box-shadow: 1px 1px 10px 0 #f504f5, 1px 1px 10px 0 #f504f5;
+  border: solid 1px #f504f5;
+  border-radius: 50px;
+}
+
+body .features .link3 a {
+  text-decoration: none;
+}
+
+body .features .link3 a h3 {
+  color: #f504f5;
+}
+
+body .features .link3 a p {
+  color: #f504f5;
+}
+
+body .features .link3 a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px #f504f5, 0 0 5px #f504f5;
+  color: #f504f5;
+  display: block;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+body .features .link3:hover, body .features :active {
+  -webkit-box-shadow: 1px 1px 10px 0 #f504f5, 1px 1px 10px 0 #f504f5;
+          box-shadow: 1px 1px 10px 0 #f504f5, 1px 1px 10px 0 #f504f5;
+  border: solid 5px #f504f5;
+}
+
+body .features .link3:hover a, body .features :active a {
+  text-decoration: none;
+}
+
+body .features .link3:hover a h3, body .features :active a h3 {
+  color: #f504f5;
+}
+
+body .features .link3:hover a p, body .features :active a p {
+  color: #f504f5;
+}
+
+body .features .link3:hover a p i, body .features :active a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+  color: white;
+  display: block;
+}
+
+body .features .link4 {
+  -webkit-box-shadow: 1px 1px 10px 0 gold, 1px 1px 10px 0 gold;
+          box-shadow: 1px 1px 10px 0 gold, 1px 1px 10px 0 gold;
+  border: solid 1px gold;
+  border-radius: 15px;
+}
+
+body .features .link4 a {
+  text-decoration: none;
+}
+
+body .features .link4 a h3 {
+  color: gold;
+}
+
+body .features .link4 a p {
+  color: gold;
+}
+
+body .features .link4 a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px gold;
+  color: gold;
+  display: block;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+body .features .link4:hover, body .features :active {
+  -webkit-box-shadow: 1px 1px 10px 0 gold, 1px 1px 10px 0 gold;
+          box-shadow: 1px 1px 10px 0 gold, 1px 1px 10px 0 gold;
+  border: solid 5px gold;
+}
+
+body .features .link4:hover a, body .features :active a {
+  text-decoration: none;
+}
+
+body .features .link4:hover a h3, body .features :active a h3 {
+  color: gold;
+}
+
+body .features .link4:hover a p, body .features :active a p {
+  color: gold;
+}
+
+body .features .link4:hover a p i, body .features :active a p i {
+  text-shadow: 1px 1px 2px black, 0 0 25px #7c7979, 0 0 5px #7c7979;
+  color: #7c7979;
+  display: block;
+}
+
+@media (min-width: 1600px) {
+  body .header {
+    font-size: 1vw;
+  }
+  body .header .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1599px) {
+  body .header {
+    font-size: 16px;
+  }
+  body .features .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  body .features .row div {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+  }
+}
+
+@media (max-width: 770px) {
+  body .features .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .features .row div {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+}
+
+@media (max-width: 470px) {
+  body .features .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .features .row div {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+}
+
+body .footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f504f5), to(gold));
+  background-image: linear-gradient(to top, #f504f5, gold);
+  border-radius: 40px;
+  direction: rtl;
+}
+
+body .footer h4 {
+  font-weight: 800;
+  color: #7c7979;
+}
+
+body .footer li a {
+  font-weight: 900;
+  font-size: 15px;
+  color: white;
+}
+/*# sourceMappingURL=newstyle.css.map */
