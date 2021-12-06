@@ -159,6 +159,18 @@ font: {
             size: 1.2em;
         }
     }
+ 
+ 
+ 
+ 
+ 
+
+ 
+   
+   
+   
+   
+   
 }
 .features{
     
@@ -257,6 +269,8 @@ font: {
         box-shadow: 1px 1px 10px 0  $myColor5, 1px 1px 10px 0 $myColor5;
         border: solid 1px $myColor5;
            border-radius: 15px 50px;
+           
+           
 
           a{
               text-decoration: none;
@@ -281,14 +295,16 @@ font: {
     .link1:hover,:active{
         box-shadow: 1px 1px 10px 0  $myColor5, 1px 1px 10px 0 $myColor5;
         border: solid 5px $myColor5;
-
+        animation: none;
+        background-color: $myColor5;
+             
         a{
             text-decoration: none;
             h3{
-                color: $myColor5;
+                color: $myColor3;
             }
             p{
-                color: $myColor5;
+                color: $myColor3;
                  
         i{
           text-shadow: 1px 1px 2px black, 0 0 25px $myColor5, 0 0 5px $myColor5;
@@ -330,14 +346,18 @@ font: {
     .link2:hover,:active{
         box-shadow: 1px 1px 10px 0  $myColor6, 1px 1px 10px 0 $myColor6;
         border: solid 5px $myColor6;
+        animation: none;
+        background: {
+            color: $myColor6;
+        }
 
         a{
             text-decoration: none;
             h3{
-                color: $myColor6;
+                color: $myColor3;
             }
             p{
-                color: $myColor6;
+                color: $myColor3;
                  
         i{
           text-shadow: 1px 1px 2px black, 0 0 25px $myColor1, 0 0 5px $myColor1;
@@ -353,6 +373,7 @@ font: {
     box-shadow: 1px 1px 10px 0  $myColor, 1px 1px 10px 0 $myColor;
     border: solid 1px $myColor;
        border-radius: 50px;
+       animation: none;
 
       a{
           text-decoration: none;
@@ -378,14 +399,19 @@ font: {
 .link3:hover,:active{
     box-shadow: 1px 1px 10px 0  $myColor, 1px 1px 10px 0 $myColor;
     border: solid 5px $myColor;
+    animation: none;
+    background: {
+        color: $myColor;
+
+    }
 
     a{
         text-decoration: none;
         h3{
-            color: $myColor;
+            color: $myColor3;
         }
         p{
-            color: $myColor;
+            color: $myColor3;
              
     i{
       text-shadow: 1px 1px 2px black, 0 0 25px $myColor3, 0 0 5px $myColor3;
@@ -426,14 +452,18 @@ font: {
 .link4:hover,:active{
     box-shadow: 1px 1px 10px 0  $myColor2, 1px 1px 10px 0 $myColor2;
     border: solid 5px $myColor2;
+    animation: none;
+    background: {
+        color: $myColor2;
+    }
 
     a{
         text-decoration: none;
         h3{
-            color: $myColor2;
+            color: $myColor3;
         }
         p{
-            color: $myColor2;
+            color: $myColor3;
              
     i{
       text-shadow: 1px 1px 2px black, 0 0 25px $myColor1, 0 0 5px $myColor1;
@@ -510,6 +540,7 @@ font: {
             }
         }
     }
+    
 }
 .footer{
     background: {
@@ -534,6 +565,9 @@ font: {
         color: $myColor3;
     }
 }
+
+
+
 
 }
 
