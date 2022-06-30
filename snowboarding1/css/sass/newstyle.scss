@@ -1,0 +1,573 @@
+@import "variables";
+@import "important-tags";
+// .log{
+// i{
+// font: {
+
+// }
+// }
+// }
+// .searchh{
+// @extend .buttonBase
+// color: red;
+// }
+body{
+h4,
+h5,
+h6,
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+    direction: rtl;
+}
+font: {
+    family: Iranian-Sans;
+	letter-spacing: -0.5px;
+}
+
+
+.header {
+  background: {
+    image: linear-gradient(black, black);
+  }
+  .container{
+      .row{
+          .col-md-12{
+              .header-left{
+                  .logo{
+                      i{
+
+                          color: $myColor4;
+                          font: {
+                              size: 2em;
+                          }
+                          margin: {
+                              top: 13px;
+                          }
+                      }
+                  }
+              }
+              .menu .toggleMenu i{
+                  color: $myColor4;
+                  font: {
+                      size: 2em;
+                  }
+              }
+              .menu li a{
+                  color: $myColor4;
+                  .menu li a::active{
+                      background-color: $myColor3;
+                      color: $myColor;
+                  }
+                
+              }
+              .header_right{
+                .search-box{
+                    .sb-search{
+                        .sb-search-input{
+                           background-image: linear-gradient(to top, white , silver);
+                           
+                          
+                        }
+                    }
+                }
+                .active-icon{
+                    color: black;
+                    background: {
+                        color:black;
+                }
+            }
+          }
+          
+      }
+  }
+}
+}
+.main{
+    .content-top{
+        h2{
+            color: $myColor4;
+        }
+        p{
+            color: $myColor4;
+        }
+        i{
+            color: $myColor4;
+            font: {
+                size: 30px;
+            }
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+        h3{
+            color: $myColor4;
+        }
+    }
+    // team.html
+    .shop_top{
+        .container{
+            
+            .team_box{
+                .team1{
+                    i{
+                        @include formIcons(pink);
+
+                    }
+                    i:hover,:active{
+                        @include formIconsH;
+                    }
+                }
+            }
+            // shop.html
+            .row{
+               
+                .col-md-3{
+                    
+                    .shop_desc{
+                        
+                        span{
+                            font: {
+                                family: Rezvan;
+                                
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+    
+
+}
+
+
+.col-md-7{
+    float: right;
+    h3{
+        color: $myColor4;
+    }
+    p{
+        color: $myColor4;
+        font: {
+            weight: 900;
+            size: 1.2em;
+        }
+    }
+ 
+ 
+ 
+ 
+ 
+
+ 
+   
+   
+   
+   
+   
+}
+.features{
+    
+    .container{
+        width: 90%;
+
+        p.m_3{
+            font: {
+                weight: 900;
+            }
+            text: {
+                align: center;
+            }
+            
+        }
+        i{
+         
+            font-size: 30px;
+        }
+        p{
+            font: {
+                weight: 900;
+            }
+            color: $myColor1;
+        }
+        i{
+            color: $myColor4;
+            font-size: 30px;
+        }
+    }
+    .link5{
+        // animation: myfirst 5s sease-in 2s infinite alternate-reverse;
+      animation: example 2s ease-in infinite alternate;
+    }
+    @keyframes example {
+        0%   {background: {
+            image: linear-gradient(to right, $myColor3, $myColor7 1%, $myColor3);
+        }
+    }
+    5%   {background: {
+        image: linear-gradient(to right, $myColor3, $myColor7 6%, $myColor3);
+    }
+}
+        10%  {
+            background: {
+                image: linear-gradient(to right, $myColor3 , $myColor7 10%, $myColor3);
+            }
+        }
+        15%   {background: {
+            image: linear-gradient(to right, $myColor3, $myColor7 15%, $myColor3);
+        }
+    }
+        25%  {
+            background: {
+                image: linear-gradient(to right, $myColor3 , $myColor7 25%, $myColor3);
+            }
+        }
+        35%   {background: {
+            image: linear-gradient(to right, $myColor3, $myColor7 35%, $myColor3);
+        }
+    }
+        45%  {
+            background: {
+                image: linear-gradient(to right, $myColor3 , $myColor7 45%, $myColor3);
+            }
+        }
+        55%   {background: {
+            image: linear-gradient(to right, $myColor3, $myColor7 55%, $myColor3);
+        }
+    }
+        65% {
+            background: {
+                image: linear-gradient(to right, $myColor3 , $myColor7 65%, $myColor3);
+            }
+        }
+        75%   {background: {
+            image: linear-gradient(to right, $myColor3, $myColor7 75%, $myColor3);
+        }
+    }
+    85%   {background: {
+        image: linear-gradient(to right, $myColor3, $myColor7 85%, $myColor3);
+    }
+}
+95%   {background: {
+    image: linear-gradient(to right, $myColor3, $myColor7 95%, $myColor3);
+}
+
+}
+100%   {background: {
+    image: linear-gradient(to right, $myColor3, $myColor7 100%, $myColor3);
+}
+}
+    }
+
+    .link1{
+        box-shadow: 1px 1px 10px 0  $myColor5, 1px 1px 10px 0 $myColor5;
+        border: solid 1px $myColor5;
+           border-radius: 15px 50px;
+           
+           
+
+          a{
+              text-decoration: none;
+              h3{
+                  color: $myColor5;
+              }
+              p{
+                  color: $myColor5;
+                   
+          i{
+            text-shadow: 1px 1px 2px black, 0 0 25px $myColor5, 0 0 5px $myColor5;
+            color: $myColor5;
+            display: block;
+            transition: color 1s;
+       }
+   
+
+              }
+        
+        }
+    }
+    .link1:hover,:active{
+        box-shadow: 1px 1px 10px 0  $myColor5, 1px 1px 10px 0 $myColor5;
+        border: solid 5px $myColor5;
+        animation: none;
+        background-color: $myColor5;
+             
+        a{
+            text-decoration: none;
+            h3{
+                color: $myColor3;
+            }
+            p{
+                color: $myColor3;
+                 
+        i{
+          text-shadow: 1px 1px 2px black, 0 0 25px $myColor5, 0 0 5px $myColor5;
+          color: $myColor4;
+          display: block;
+
+         
+     }
+    }
+    }
+}
+
+
+    .link2{
+        box-shadow: 1px 1px 10px 0  $myColor6, 1px 1px 10px 0 $myColor6;
+        border: solid 1px $myColor6;
+           border-radius: 50px 15px;
+
+          a{
+              text-decoration: none;
+              h3{
+                  color: $myColor6;
+              }
+              p{
+                  color: $myColor6;
+                   
+          i{
+            text-shadow: 1px 1px 2px black, 0 0 25px $myColor6, 0 0 5px $myColor6;
+            color: $myColor6;
+            display: block;
+            transition: color 1s;
+       }
+   
+
+              }
+        
+        }
+    }
+    .link2:hover,:active{
+        box-shadow: 1px 1px 10px 0  $myColor6, 1px 1px 10px 0 $myColor6;
+        border: solid 5px $myColor6;
+        animation: none;
+        background: {
+            color: $myColor6;
+        }
+
+        a{
+            text-decoration: none;
+            h3{
+                color: $myColor3;
+            }
+            p{
+                color: $myColor3;
+                 
+        i{
+          text-shadow: 1px 1px 2px black, 0 0 25px $myColor1, 0 0 5px $myColor1;
+          color: $myColor1;
+          display: block;
+
+         
+     }
+    }
+    }
+ }
+ .link3{
+    box-shadow: 1px 1px 10px 0  $myColor, 1px 1px 10px 0 $myColor;
+    border: solid 1px $myColor;
+       border-radius: 50px;
+       animation: none;
+
+      a{
+          text-decoration: none;
+          h3{
+              color: $myColor;
+          }
+          p{
+              color: $myColor;
+               
+      i{
+        text-shadow: 1px 1px 2px black, 0 0 25px $myColor, 0 0 5px $myColor;
+        color: $myColor;
+        display: block;
+        transition: color 1s;
+   }
+
+
+          }
+    
+    }
+
+}
+.link3:hover,:active{
+    box-shadow: 1px 1px 10px 0  $myColor, 1px 1px 10px 0 $myColor;
+    border: solid 5px $myColor;
+    animation: none;
+    background: {
+        color: $myColor;
+
+    }
+
+    a{
+        text-decoration: none;
+        h3{
+            color: $myColor3;
+        }
+        p{
+            color: $myColor3;
+             
+    i{
+      text-shadow: 1px 1px 2px black, 0 0 25px $myColor3, 0 0 5px $myColor3;
+      color: $myColor3;
+      display: block;
+
+     
+ }
+}
+}
+}
+.link4{
+    box-shadow: 1px 1px 10px 0  $myColor2, 1px 1px 10px 0 $myColor2;
+    border: solid 1px $myColor2;
+       border-radius: 15px;
+
+      a{
+          text-decoration: none;
+          h3{
+              color: $myColor2;
+          }
+          p{
+              color: $myColor2;
+               
+      i{
+        text-shadow: 1px 1px 2px black, 0 0 25px $myColor2, 0 0 5px $myColor2;
+        color: $myColor2;
+        display: block;
+        transition: color 1s;
+   }
+
+
+          }
+    
+    }
+    
+}
+.link4:hover,:active{
+    box-shadow: 1px 1px 10px 0  $myColor2, 1px 1px 10px 0 $myColor2;
+    border: solid 5px $myColor2;
+    animation: none;
+    background: {
+        color: $myColor2;
+    }
+
+    a{
+        text-decoration: none;
+        h3{
+            color: $myColor3;
+        }
+        p{
+            color: $myColor3;
+             
+    i{
+      text-shadow: 1px 1px 2px black, 0 0 25px $myColor1, 0 0 5px $myColor1;
+      color: $myColor1;
+      display: block;
+
+     
+ }
+}
+}
+}
+}
+@media (min-width:1600px){
+    .header {
+        font: {
+            size: 1vw;
+        }
+        .container{
+            width: 90%;
+
+}
+}
+}
+@media (max-width:1599px){
+    .header {
+        font: {
+            size: 16px;
+        }
+
+}
+
+
+
+
+    .features{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            
+            div{
+                 flex: 25%
+                 
+            }
+
+        }
+    }
+}
+@media (max-width:770px){
+    .features{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            div{
+                 flex: 50%
+            }
+        }
+    }
+}
+@media (max-width: 470px){
+    .features{
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            div{
+                 flex: 100%
+            }
+        }
+    }
+    
+}
+.footer{
+    background: {
+        image: linear-gradient(to top, $myColor, $myColor2)
+    }
+    border-radius: 40px;
+    direction: rtl;
+    h4{
+        font: {
+            weight: 800;
+
+            
+        }
+        color: $myColor1;
+        
+    }
+    li a{
+        font: {
+            weight: 900;
+            size: 15px;
+        }
+        color: $myColor3;
+    }
+}
+
+
+
+
+}
+
